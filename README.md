@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/mitlibraries/courtyard.svg)](https://travis-ci.org/mitlibraries/courtyard)
-[![Code Climate](https://codeclimate.com/github/mitlibraries/courtyard/badges/gpa.svg)](https://codeclimate.com/github/mitlibraries/courtyard)
+[![Build Status](https://travis-ci.org/MITLibraries/courtyard.svg)](https://travis-ci.org/MITLibraries/courtyard)
+[![Code Climate](https://codeclimate.com/github/MITLibraries/courtyard/badges/gpa.svg)](https://codeclimate.com/github/MITLibraries/courtyard)
+[![Stories in Ready](https://badge.waffle.io/MITLibraries/courtyard.svg?label=ready&title=Ready)](http://waffle.io/MITLibraries/courtyard)
 
 Courtyard
 ======
