@@ -31,13 +31,13 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  // Default Task is very minimal
-  grunt.registerTask('default', ['concat', 'uglify']);
+  // Default Task is to build
+  grunt.registerTask('default', ['build']);
 
   // There are separate build steps for JS and CSS, which can be combined
   grunt.registerTask('build-js', ['concat', 'uglify']);
-  // grunt.registerTask('build-css', ['sass', 'autoprefixer', 'cssmin']);
-  // grunt.registerTask('build', ['build-js', 'build-css']);
+  grunt.registerTask('build-css', ['sass', 'autoprefixer', 'cssmin']);
+  grunt.registerTask('build', ['build-js', 'build-css']);
 
   // Moved to the tasks folder:
   // grunt.registerTask('dev', ['connect', 'watch']);
