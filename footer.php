@@ -14,11 +14,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'courtyard' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'courtyard' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'courtyard' ), 'courtyard', '<a href="http://automattic.com/" rel="designer">Automattic</a>' ); ?>
-		</div><!-- .site-info -->
+		<?php if ( is_active_sidebar( 'page_footer' ) ) : ?>
+			<div id="page_footer" class="widget-area" role="complementary">
+				<?php dynamic_sidebar( 'page_footer' ); ?>
+			</div>
+		<?php endif; ?>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

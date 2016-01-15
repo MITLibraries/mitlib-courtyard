@@ -7103,3 +7103,24 @@ Entry Footer
 .entry-footer > span {
   display: block;
 }
+
+
+/* ####################################################################
+#######################################################################
+#################################################################### */
+#colophon {
+  background: #595959;
+  color: #bbb9b8;
+  padding-top: 15px;
+}
+#colophon a {
+  color: #ededed;
+}
+
+#page_footer {
+  /* This matches the styles for #primary and #secondary */
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;  
+}
