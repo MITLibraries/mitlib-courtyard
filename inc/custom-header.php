@@ -75,7 +75,7 @@ function courtyard_header_style() {
 	</style>
 	<?php
 }
-endif; // courtyard_header_style
+endif; // End courtyard_header_style.
 
 if ( ! function_exists( 'courtyard_admin_header_style' ) ) :
 /**
@@ -103,7 +103,7 @@ function courtyard_admin_header_style() {
 	</style>
 <?php
 }
-endif; // courtyard_admin_header_style
+endif; // End courtyard_admin_header_style.
 
 if ( ! function_exists( 'courtyard_admin_header_image' ) ) :
 /**
@@ -124,4 +124,4 @@ function courtyard_admin_header_image() {
 	</div>
 <?php
 }
-endif; // courtyard_admin_header_image
+endif; // End courtyard_admin_header_image.

@@ -77,7 +77,7 @@ function courtyard_setup() {
 		'default-image' => '',
 	) ) );
 }
-endif; // courtyard_setup
+endif; // End courtyard_setup.
 add_action( 'after_setup_theme', 'courtyard_setup' );
 
 /**
@@ -115,7 +115,7 @@ function courtyard_widgets_init() {
 		'after_widget'  => '',
 		'before_title'  => '<h2>',
 		'after_title'   => '</h2>',
-	) );	
+	) );
 }
 add_action( 'widgets_init', 'courtyard_widgets_init' );
 
@@ -131,7 +131,7 @@ function courtyard_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-    wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), 'v3.3.5', true );
+	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), 'v3.3.5', true );
 
 	/**
 	 * IE Fallbacks.
