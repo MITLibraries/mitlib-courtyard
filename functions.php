@@ -107,6 +107,15 @@ function courtyard_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar( array(
+		'name'          => 'Page Footer',
+		'id'            => 'page_footer',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '<h2>',
+		'after_title'   => '</h2>',
+	) );	
 }
 add_action( 'widgets_init', 'courtyard_widgets_init' );
 
@@ -123,6 +132,20 @@ function courtyard_scripts() {
 	}
 
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array( 'jquery' ), 'v3.3.5', true );
+
+	/**
+	 * IE Fallbacks.
+	 *
+	 * @link http://stackoverflow.com/questions/11564142/wordpress-enqueue-scripts-for-only-if-lt-ie-9
+	 */
+	wp_register_script( 'ie_html5shiv', get_template_directory( 'stylesheet_url' ). '/js/html5.js', __FILE__, false, '3.7.2' );
+	wp_enqueue_script( 'ie_html5shiv' );
+	wp_script_add_data( 'ie_html5shiv', 'conditional', 'lt IE 9' );
+
+	wp_register_script( 'ie_respond', '//cdn.jsdelivr.net/respond/1.4.2/respond.min.js', __FILE__, false, '1.4.2' );
+	wp_enqueue_script( 'ie_respond' );
+	wp_script_add_data( 'ie_respond', 'conditional', 'lt IE 9' );
+
 }
 add_action( 'wp_enqueue_scripts', 'courtyard_scripts' );
 

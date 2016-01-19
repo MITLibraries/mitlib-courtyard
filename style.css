@@ -7103,3 +7103,50 @@ Entry Footer
 .entry-footer > span {
   display: block;
 }
+
+
+/* ####################################################################
+#######################################################################
+#################################################################### */
+.site-branding {
+  /* This mimics the green of StaffWeb */
+  background: #487a5e;
+  color: white;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.site-branding a {
+  color: white;
+}
+.site-branding svg {
+  fill: white;
+}
+
+.site-logo {
+  display: inline-block;
+  padding: 15px;
+}
+
+.site-title {
+  padding: 15px;
+  margin: 0;
+  display: inline-block;
+}
+
+#colophon {
+  background: #595959;
+  color: #bbb9b8;
+  padding-top: 15px;
+}
+#colophon a {
+  color: #ededed;
+}
+
+#page_footer {
+  /* This matches the styles for #primary and #secondary */
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;  
+}
