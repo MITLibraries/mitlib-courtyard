@@ -1,0 +1,26 @@
+{
+  "name": "courtyard",
+  "version": "0.1.0",
+  "description": "Build tooling for the MIT Libraries' 'courtyard' Wordpress theme.",
+  "bugs": "https://github.com/MITLibraries/courtyard/issues",
+  "license": "MIT",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/MITLibraries/courtyard"
+  },
+  "devDependencies": {
+    "glob": "~3.2.8",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "~0.7.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-imagemin": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-sass": "~0.7.2",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "~0.2.0"
+  }
+}
