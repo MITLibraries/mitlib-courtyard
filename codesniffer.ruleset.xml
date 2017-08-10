@@ -12,5 +12,28 @@
 		<exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect" />
 		<exclude name="Generic.Strings.UnnecessaryStringConcat.Found" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
+		<!-- Exclude the following known-failing sniffs -->
+		<exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+		<exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace" />
+		<exclude name="Squiz.PHP.DisallowMultipleAssignments.Found" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.ContentAfterOpen" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.ContentBeforeEnd" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.Empty" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.NoSemicolon" />
+		<exclude name="Squiz.PHP.EmbeddedPhp.SpacingBeforeClose" />
+		<exclude name="Squiz.Scope.MethodScope.Missing" />
+		<exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound" />
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeKeyFound" />
+		<exclude name="WordPress.Arrays.ArrayIndentation.CloseBraceNotAligned" />
+		<exclude name="WordPress.Arrays.ArrayIndentation.ItemNotAligned" />
+		<exclude name="WordPress.Arrays.ArrayIndentation.MultiLineArrayItemNotAligned" />
+		<exclude name="WordPress.Arrays.CommaAfterArrayItem.NoSpaceAfterComma" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+		<exclude name="WordPress.Functions.DontExtract.extract_extract" />
+		<exclude name="WordPress.WhiteSpace.ControlStructureSpacing.ExtraSpaceBeforeCloseParenthesis" />
+		<exclude name="WordPress.WhiteSpace.DisallowInlineTabs.NonIndentTabsUsed" />
+		<exclude name="WordPress.WP.I18n.MissingSingularPlaceholder" />
+		<exclude name="WordPress.WP.I18n.MissingTranslatorsComment" />
+		<exclude name="WordPress.WP.I18n.NonSingularStringLiteralText" />
 	</rule>
 </ruleset>

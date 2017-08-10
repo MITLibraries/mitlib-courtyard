@@ -32,12 +32,16 @@ module.exports = function(grunt) {
   require('load-grunt-tasks')(grunt);
 
   // Default Task is to build
-  grunt.registerTask('default', ['build']);
 
-  // There are separate build steps for JS and CSS, which can be combined
-  grunt.registerTask('build-js', ['concat', 'uglify']);
-  grunt.registerTask('build-css', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('build', ['build-js', 'build-css']);
+  // There are basically three phases of building the production theme:
+  // 1) Javascript preparation (concatenating and uglifying scripts)
+  grunt.registerTask('javascript', ['concat', 'uglify']);
+  // 2) Stylesheet preparation (SASS, autoprefixing, and minification)
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'cssmin']);
+  // 3) Appending the most recent git commit to the theme version
+  grunt.registerTask('release', ['gitinfo', 'replace']);
+  // The default task performs all three phases.
+  grunt.registerTask('default', ['javascript', 'styles', 'release']);
 
   // Moved to the tasks folder:
   // grunt.registerTask('dev', ['connect', 'watch']);
