@@ -13,6 +13,7 @@
 		<exclude name="Generic.Strings.UnnecessaryStringConcat.Found" />
 		<exclude name="PEAR.Functions.FunctionCallSignature.Indent" />
 		<!-- Exclude the following known-failing sniffs -->
+		<exclude name="Generic.Files.OneClassPerFile.MultipleFound" />
 		<exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
 		<exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace" />
 		<exclude name="Squiz.PHP.DisallowMultipleAssignments.Found" />
