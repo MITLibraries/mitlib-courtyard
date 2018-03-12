@@ -1,10 +1,10 @@
 <?php
 /**
- * Courtyard functions and definitions.
+ * Mitlib-Courtyard functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Courtyard
+ * @package mitlib-courtyard
  */
 
 if ( ! function_exists( 'courtyard_setup' ) ) :

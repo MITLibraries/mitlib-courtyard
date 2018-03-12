@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.me/
  *
- * @package Courtyard
+ * @package mitlib-courtyard
  */
 
 /**

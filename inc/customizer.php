@@ -1,8 +1,8 @@
 <?php
 /**
- * Courtyard Theme Customizer.
+ * mitlib-courtyard Theme Customizer.
  *
- * @package Courtyard
+ * @package mitlib-courtyard
  */
 
 /**

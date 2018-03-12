@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Courtyard
+ * @package mitlib-courtyard
  */
 
 get_header(); ?>

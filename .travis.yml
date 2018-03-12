@@ -1,9 +1,9 @@
-# Travis CI (MIT License) configuration file for the Courtyard WordPress theme.
+# Travis CI (MIT License) configuration file for the Mitlib-Courtyard WordPress theme.
 # This has been adapted from Underscores.
 # @link https://travis-ci.org/
 
 # For use with the Courtyard WordPress theme, based on Underscores
-# @link https://github.com/MITLibraries/courtyard
+# @link https://github.com/MITLibraries/mitlib-courtyard
 
 # Declare what Travis environment should be used. Specifically, we need the
 # 'precise' environment rather than 'trusty' to get PHP 5.3.
