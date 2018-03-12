@@ -16,17 +16,19 @@ function courtyard_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
 
 	// Implements ability to hide navbar.
+	$wp_customize->add_section('navbar_section', array(
+		'title' => 'Navbar',
+	));
+
 	$wp_customize->add_setting( 'hide_nav', array(
-			'type' => 'theme_mod',
-		)
-	);
+		'type' => 'theme_mod',
+	));
 	$wp_customize->add_control( 'hide_nav', array(
-			'type' => 'checkbox',
-			'priority' => '10',
-			'section' => 'nav',
-			'label' => __( 'Hide navbar' ),
-		)
-	);
+		'type' => 'checkbox',
+		'priority' => '10',
+		'section' => 'navbar_section',
+		'label' => __( 'Hide navbar' ),
+	));
 }
 add_action( 'customize_register', 'courtyard_customize_register' );
 
