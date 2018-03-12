@@ -118,4 +118,4 @@ function courtyard_category_transient_flusher() {
 	delete_transient( 'courtyard_categories' );
 }
 add_action( 'edit_category', 'courtyard_category_transient_flusher' );
-add_action( 'save_post',     'courtyard_category_transient_flusher' );
+add_action( 'save_post', 'courtyard_category_transient_flusher' );
