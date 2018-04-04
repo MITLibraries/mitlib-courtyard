@@ -77,7 +77,7 @@ before_script:
   # Install CodeSniffer for WordPress Coding Standards checks.
   - git clone https://github.com/squizlabs/PHP_CodeSniffer.git php-codesniffer
   # Install WordPress Coding Standards.
-  - git clone https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wordpress-coding-standards
+  - git clone master https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards.git wordpress-coding-standards
   # Hop into CodeSniffer directory.
   - cd php-codesniffer
   # Checkout pre 3.x version
