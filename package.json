@@ -1,12 +1,12 @@
 {
-  "name": "courtyard",
-  "version": "0.1.0",
+  "name": "mitlib-courtyard",
+  "version": "1.2.0",
   "description": "Build tooling for the MIT Libraries' 'courtyard' Wordpress theme.",
-  "bugs": "https://github.com/MITLibraries/courtyard/issues",
+  "bugs": "https://github.com/MITLibraries/mitlib-courtyard/issues",
   "license": "MIT",
   "repository" : {
     "type": "git",
-    "url": "https://github.com/MITLibraries/courtyard"
+    "url": "https://github.com/MITLibraries/mitlib-courtyard"
   },
   "devDependencies": {
     "glob": "~7.1.2",

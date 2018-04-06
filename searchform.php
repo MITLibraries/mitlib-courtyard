@@ -2,7 +2,7 @@
 /**
  * The template for displaying search forms in Courtyard
  *
- * @package Courtyard
+ * @package mitlib-courtyard
  */
 
 ?>
