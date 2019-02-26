@@ -4,7 +4,7 @@
   "description": "Build tooling for the MIT Libraries' 'courtyard' Wordpress theme.",
   "bugs": "https://github.com/MITLibraries/mitlib-courtyard/issues",
   "license": "MIT",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/MITLibraries/mitlib-courtyard"
   },
@@ -18,7 +18,7 @@
     "grunt-contrib-jshint": "~1.1.0",
     "grunt-contrib-sass": "~1.0.0",
     "grunt-contrib-uglify": "~3.0.1",
-    "grunt-contrib-watch": "~1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-gitinfo": "~0.1.8",
     "grunt-replace": "~1.0.1"
   },
