@@ -1,0 +1,13 @@
+{
+    "name": "mitlibraries/mitlib-courtyard",
+    "description": "A parent WordPress theme for internally-facing MIT Libraries resources",
+    "type": "wordpress-theme",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Matt Bernhardt",
+            "email": "mjbernha@mit.edu"
+        }
+    ],
+    "require": {}
+}
